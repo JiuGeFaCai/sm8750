@@ -19,5 +19,4 @@
     <linkfile dest="kernel_platform/build/prebuilts/clang-tools" src="."/>
   </project>
   <project remote="aosp" name="platform/prebuilts/clang/host/linux-x86" path="kernel_platform/prebuilts/clang/host/linux-x86" revision="7061673283909f372f4938e45149d23bd10cbd40" clone-depth="1" groups="ddk" />
-  </project>
 </manifest>
