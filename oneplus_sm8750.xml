@@ -5,7 +5,7 @@
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <remote fetch="https://github.com/JiuGeFaCai" name="jiu"/>
-  <project remote="jiu" name="android_kernel_common_oneplus_sm8750" path="kernel_platform/common" revision="oneplus/android15-6.6-2025-07-new" clone-depth="1">
+  <project remote="jiu" name="android_kernel_common_oneplus_sm8750" path="kernel_platform/common" revision="android15-6.6-2025-07-new" clone-depth="1">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
   <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_sm8750" path="./" revision="oneplus/sm8750_v_15.0.0_oneplus_ace5_pro" clone-depth="1"/>
