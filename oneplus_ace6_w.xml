@@ -3,7 +3,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android.googlesource.com/" />
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <remote fetch="https://github.com/JiuGeFaCai" name="origin"/>
+  <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <project remote="origin" name="android_kernel_common_oneplus_sm8750" path="kernel_platform/common" revision="oneplus/sm8750_v_16.0.0_ace_6" clone-depth="1">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
